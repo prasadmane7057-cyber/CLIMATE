@@ -1,0 +1,6 @@
+{
+  "name": "ClimaForge: Climate Consequence & Intervention",
+  "description": "Tactical hydrological command center with deterministic cascade analysis, real-time GIS flood simulation, resource constraint optimization, and AI intervention planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

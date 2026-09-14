@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #0e1321;
+  --color-surface-dim: #0e1321;
+  --color-surface-bright: #343948;
+  --color-surface-container-lowest: #090e1c;
+  --color-surface-container-low: #161b2a;
+  --color-surface-container: #1a1f2e;
+  --color-surface-container-high: #252a39;
+  --color-surface-container-highest: #303444;
+  --color-on-surface: #dee2f6;
+  --color-on-surface-variant: #bec8d2;
+  --color-primary: #89ceff;
+  --color-primary-container: #0ea5e9;
+  --color-on-primary: #00344d;
+  --color-on-primary-container: #003751;
+  --color-tertiary: #ffb95f;
+  --color-tertiary-container: #d88a00;
+  --color-on-tertiary: #472a00;
+  --color-on-tertiary-container: #4a2c00;
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-on-error: #690005;
+  --color-on-error-container: #ffdad6;
+  --color-secondary: #ffb3ad;
+  --color-secondary-container: #a40217;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+    min-height: 100vh;
+  }
+}
+
+.font-badge-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.font-telemetry-sm {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+}
+
+.font-telemetry-md {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+
+.font-telemetry-lg {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  font-weight: 600;
+}
+
+.font-display-hero {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.font-headline-lg {
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  font-weight: 600;
+}
+
+.font-headline-md {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+}
+
+.font-headline-sm {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  font-weight: 600;
+}
+
+.font-body-lg {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  font-weight: 400;
+}
+
+.font-body-md {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  font-weight: 400;
+}
+
+.font-body-sm {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0e1321;
+}
+::-webkit-scrollbar-thumb {
+  background: #252a39;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3e4850;
+}
